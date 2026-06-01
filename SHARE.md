@@ -15,10 +15,11 @@ information density, user control, consistency, and more. It then exports:
 It's just a folder you drop into `~/.claude/skills/` and it works in any project. The rules live in
 one `rules.json` file, the scoring is a tiny Node script, and the report is plain markdown.
 
-**About the rules:** I adapted them from a **Brazilian university usability study** (a classic set
-of ergonomic criteria used in UI evaluation). They're a great starting point — but they're not
-sacred. The whole thing is one JSON file, so **change, add, remove, or edit any rule** to match
-your product, your design system, or your company's standards. Make it yours.
+**Where the rules come from:** they're adapted from the **ErgoList usability checklist** developed
+at the **Federal University of Santa Catarina (UFSC), Brazil**, which is itself based on the classic
+**ergonomic criteria of Bastien & Scapin**. A great, well-tested starting point — but not sacred.
+The whole thing is one JSON file, so **change, add, remove, or edit any rule** to match your
+product, your design system, or your company's standards. Make it yours.
 
 Want it? It's free — copy the `ui-ergonomics` folder into `~/.claude/skills/` and ask Claude to
 "run a usability audit on <my screen>".
@@ -42,11 +43,11 @@ ela exporta:
 num único arquivo `rules.json`, a pontuação é um script Node pequenininho, e o relatório é markdown
 puro.
 
-**Sobre as regras:** eu adaptei de um **estudo de usabilidade de uma universidade brasileira** (um
-conjunto clássico de critérios ergonômicos usado em avaliação de UI). É um ótimo ponto de partida —
-mas não é sagrado. Tudo é um arquivo JSON só, então **mude, adicione, remova ou edite qualquer
-regra** pra encaixar no seu produto, no seu design system ou no padrão da sua empresa. Deixa do seu
-jeito.
+**De onde vêm as regras:** elas são adaptadas do **checklist de usabilidade ErgoList**, desenvolvido
+na **Universidade Federal de Santa Catarina (UFSC), no Brasil**, que por sua vez se baseia nos
+clássicos **critérios ergonômicos de Bastien & Scapin**. Um ótimo ponto de partida, já testado — mas
+não é sagrado. Tudo é um arquivo JSON só, então **mude, adicione, remova ou edite qualquer regra**
+pra encaixar no seu produto, no seu design system ou no padrão da sua empresa. Deixa do seu jeito.
 
 Quer? É de graça — copia a pasta `ui-ergonomics` pra dentro de `~/.claude/skills/` e pede pro Claude
 "rodar uma auditoria de usabilidade na <minha tela>".
