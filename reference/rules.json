@@ -1,0 +1,272 @@
+{
+  "framework": "UI Ergonomics — Usability Dimensions Checklist",
+  "version": "1.0",
+  "scoring": {
+    "states": ["pass", "fail", "na"],
+    "criterionScore": "passed / (total - na) * 100",
+    "globalScore": "average of all applicable rules across every criterion, 0-100",
+    "levels": [
+      { "min": 90, "label": "Excellent", "emoji": "🟢" },
+      { "min": 75, "label": "Good", "emoji": "🟢" },
+      { "min": 60, "label": "Acceptable", "emoji": "🟡" },
+      { "min": 40, "label": "Weak", "emoji": "🟠" },
+      { "min": 0, "label": "Critical", "emoji": "🔴" }
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "PRE",
+      "name": "Prompting",
+      "summary": "Check that the system informs and guides the user throughout the interaction.",
+      "rules": [
+        { "id": "PRE-01", "text": "Are the titles of screens, windows and dialog boxes placed at the top, centered or left-justified?" },
+        { "id": "PRE-02", "text": "Do all fields and data displays have identifying labels?" },
+        { "id": "PRE-03", "text": "If the data to be entered has a particular format, is that format described on the screen?" },
+        { "id": "PRE-04", "text": "Are the units for entering or displaying metric or financial data described on the screen?" },
+        { "id": "PRE-05", "text": "Do field labels contain a specific element (e.g. ':') as an invitation for data entry?" },
+        { "id": "PRE-06", "text": "If the data to be entered has acceptable values, are those values described on the screen?" },
+        { "id": "PRE-07", "text": "Do long lists show indicators of continuation, item count and pages?" },
+        { "id": "PRE-08", "text": "Do tables present row and column headers that are consistent and distinguishable from the displayed data?" },
+        { "id": "PRE-09", "text": "Do charts have an overall title and labels for their axes?" },
+        { "id": "PRE-10", "text": "Do buttons that open dialog boxes show the '…' sign in their labels as an indicator of dialog continuity?" },
+        { "id": "PRE-11", "text": "Do menu pages have titles, headers or entry prompts?" },
+        { "id": "PRE-12", "text": "Do menu options that lead to other menu panels show the '>' sign to indicate that?" },
+        { "id": "PRE-13", "text": "Does the user find the information needed for their actions readily available?" },
+        { "id": "PRE-14", "text": "In error message boxes, is a 'HELP' command button always present?" },
+        { "id": "PRE-15", "text": "Is the response to a user's help request structured within the context of the current task and transaction?" },
+        { "id": "PRE-16", "text": "Is it possible for the user to obtain the list of the basic commands of the language?" },
+        { "id": "PRE-17", "text": "When errors occur, can the user access all the information needed to diagnose and solve the problem?" }
+      ]
+    },
+    {
+      "id": "AGL",
+      "name": "Grouping by Location",
+      "summary": "Check that the spatial distribution of items reflects the relationships between the information.",
+      "rules": [
+        { "id": "AGL-01", "text": "Is the presentation space laid out in small functional zones?" },
+        { "id": "AGL-02", "text": "Does the arrangement of the interaction objects in a dialog box follow a logical order?" },
+        { "id": "AGL-03", "text": "In data groupings, are items organized spatially according to a logical criterion?" },
+        { "id": "AGL-04", "text": "Are the accelerator-key codes of menu options located to the right of the option name?" },
+        { "id": "AGL-05", "text": "In selection lists, are the options organized according to some logical order?" },
+        { "id": "AGL-06", "text": "Are menu panels built from a logical criterion for grouping options?" },
+        { "id": "AGL-07", "text": "Within a menu panel, are mutually exclusive or interdependent options grouped together and separated from the others?" },
+        { "id": "AGL-08", "text": "Are the options within a menu panel ordered according to some logical criterion?" },
+        { "id": "AGL-09", "text": "Does the definition of the menu option selected by default follow some criterion?" },
+        { "id": "AGL-10", "text": "Are groups of command buttons placed in a column to the right, or in a row below the objects they are associated with?" },
+        { "id": "AGL-11", "text": "Is the command button selected by default in the topmost position (vertical buttons) or leftmost position (horizontal buttons)?" }
+      ]
+    },
+    {
+      "id": "AGF",
+      "name": "Grouping by Format",
+      "summary": "Check the visual format of items as a means of conveying associations and differences.",
+      "rules": [
+        { "id": "AGF-01", "text": "Are controls and commands visually differentiated from the information presented on the screens?" },
+        { "id": "AGF-02", "text": "Are visual codes used to associate different categories of data that are dispersed across the screens?" },
+        { "id": "AGF-03", "text": "Are the different types of elements on a query screen (data, commands and instructions) visually distinct from one another?" },
+        { "id": "AGF-04", "text": "Are labels visually different from the data they are associated with?" },
+        { "id": "AGF-05", "text": "Are table headers differentiated through the use of different colors, larger letters or underlining?" },
+        { "id": "AGF-06", "text": "In abnormal situations, are critical data requiring immediate attention differentiated through bright colors such as red or pink?" },
+        { "id": "AGF-07", "text": "Are sound signals used to alert users in relation to a visual presentation?" },
+        { "id": "AGF-08", "text": "In text presentation, are style resources (italic, bold, underline, different fonts) used to highlight important words or notions?" },
+        { "id": "AGF-09", "text": "Are items selected for change, update or activation highlighted from the others?" },
+        { "id": "AGF-10", "text": "In alarm situations and high information-density screens, is visual blinking used to highlight data and information?" },
+        { "id": "AGF-11", "text": "Are required fields differentiated from optional fields in a visually clear way?" },
+        { "id": "AGF-12", "text": "In message boxes, does the default-selected button have a visual presentation sufficiently distinct from the others?" },
+        { "id": "AGF-13", "text": "In situations requiring special attention, are alert and warning messages presented in a distinct way?" },
+        { "id": "AGF-14", "text": "Is the mouse cursor shape different from any other item presented?" },
+        { "id": "AGF-15", "text": "Are the shapes of cursors presented simultaneously sufficiently distinct from one another?" },
+        { "id": "AGF-16", "text": "Are grouping boxes used to emphasize a group of related data?" },
+        { "id": "AGF-17", "text": "When presenting options that are currently unavailable, does the system show them in a visually differentiated way?" }
+      ]
+    },
+    {
+      "id": "FBK",
+      "name": "Feedback",
+      "summary": "Assess the quality of the immediate feedback to the user's actions.",
+      "rules": [
+        { "id": "FBK-01", "text": "Does the system provide feedback for all of the user's actions?" },
+        { "id": "FBK-02", "text": "When the system becomes unavailable due to long processing, is the user warned of this state and of the duration of the unavailability?" },
+        { "id": "FBK-03", "text": "Does the system provide information about the status of print jobs?" },
+        { "id": "FBK-04", "text": "Are items selected from a list visually highlighted immediately?" },
+        { "id": "FBK-05", "text": "Does the cursor image provide dynamic and contextual feedback about direct manipulation?" },
+        { "id": "FBK-06", "text": "Does the system give the user information about the duration of lengthy processing?" },
+        { "id": "FBK-07", "text": "Does the system present a message informing about the success or failure of lengthy processing?" },
+        { "id": "FBK-08", "text": "Does the system provide immediate and continuous feedback for direct manipulations?" },
+        { "id": "FBK-09", "text": "Does the system set the action focus to newly created or newly opened objects?" },
+        { "id": "FBK-10", "text": "Does the system provide feedback about changes to the attributes of objects?" },
+        { "id": "FBK-11", "text": "Is any change in the current state of control objects presented visually and clearly to the user?" },
+        { "id": "FBK-12", "text": "Does the system provide a history of the commands entered by the user during a work session?" }
+      ]
+    },
+    {
+      "id": "LEG",
+      "name": "Legibility",
+      "summary": "Check the legibility of the information presented on the system's screens.",
+      "rules": [
+        { "id": "LEG-01", "text": "Is blank space used to separate logical groups rather than placing everything on one side of the screen?" },
+        { "id": "LEG-02", "text": "In dialog boxes and composite objects, are control and presentation objects aligned vertically and horizontally?" },
+        { "id": "LEG-03", "text": "Are vertically organized field labels of varying sizes right-justified?" },
+        { "id": "LEG-04", "text": "Is the minimum width of displayed text 50 characters?" },
+        { "id": "LEG-05", "text": "Is the minimum height of text display areas 4 lines?" },
+        { "id": "LEG-06", "text": "Are text paragraphs separated by at least one blank line?" },
+        { "id": "LEG-07", "text": "Is the exclusive use of uppercase letters in text avoided?" },
+        { "id": "LEG-08", "text": "Is the use of bold minimized?" },
+        { "id": "LEG-09", "text": "Is the use of underline minimized?" },
+        { "id": "LEG-10", "text": "Are blank lines used to separate groups in tables?" },
+        { "id": "LEG-11", "text": "Are alphabetically organized data lists left-justified?" },
+        { "id": "LEG-12", "text": "Are lists with decimal numbers aligned by the decimal point?" },
+        { "id": "LEG-13", "text": "Are the lines for framing and segmenting menus simple?" },
+        { "id": "LEG-14", "text": "Are menu panel borders separated enough from the option text to preserve legibility?" },
+        { "id": "LEG-15", "text": "Is the use of abbreviations in menus minimized?" },
+        { "id": "LEG-16", "text": "Do menu option names have only the initial letter capitalized?" },
+        { "id": "LEG-17", "text": "Are menu option numbers right-aligned?" },
+        { "id": "LEG-18", "text": "If alphabetical enumeration is used, are the selection letters left-aligned?" },
+        { "id": "LEG-19", "text": "Are the options of a horizontal menu bar separated by at least 2 spaces?" },
+        { "id": "LEG-20", "text": "Do field labels begin with a capital letter and continue in lowercase?" },
+        { "id": "LEG-21", "text": "Are long data items partitioned into smaller groups in entries and displays?" },
+        { "id": "LEG-22", "text": "Do the system's alphanumeric codes group letters and numbers separately?" },
+        { "id": "LEG-23", "text": "Are icons legible?" },
+        { "id": "LEG-24", "text": "Does the system use text labels when there is icon ambiguity?" },
+        { "id": "LEG-25", "text": "Is reverse-video information always legible?" },
+        { "id": "LEG-26", "text": "Is the use of reverse video restricted to indicating selection feedback?" },
+        { "id": "LEG-27", "text": "Is the presented data continuous rather than blinking?" }
+      ]
+    },
+    {
+      "id": "CON",
+      "name": "Conciseness",
+      "summary": "Check the length of the codes and terms presented and entered into the system.",
+      "rules": [
+        { "id": "CON-01", "text": "Does the system offer default values to speed up data entry?" },
+        { "id": "CON-02", "text": "Is the alphanumeric identification of windows short enough to be easily remembered?" },
+        { "id": "CON-03", "text": "Are menu option names concise?" },
+        { "id": "CON-04", "text": "Are icons economical in terms of screen space?" },
+        { "id": "CON-05", "text": "Are the denominations brief?" },
+        { "id": "CON-06", "text": "Are abbreviations short?" },
+        { "id": "CON-07", "text": "Are arbitrary codes that the user must memorize always shorter than 4 or 5 characters?" },
+        { "id": "CON-08", "text": "Are labels concise?" },
+        { "id": "CON-09", "text": "Are non-meaningful alphanumeric codes that must be entered shorter than 7 characters?" },
+        { "id": "CON-10", "text": "When entering alphanumeric data, does the system treat uppercase and lowercase letters as equivalent?" },
+        { "id": "CON-11", "text": "When entering numeric data, is the user freed from filling in unnecessary decimal points?" },
+        { "id": "CON-12", "text": "When entering numeric data, is the user freed from filling in unnecessary trailing fractional zeros?" },
+        { "id": "CON-13", "text": "When entering metric or financial values, is the user freed from filling in the unit of measure?" },
+        { "id": "CON-14", "text": "Is the user allowed to reuse values defined for previous entries, and even to modify them?" }
+      ]
+    },
+    {
+      "id": "AMI",
+      "name": "Minimal Actions",
+      "summary": "Check the length of the dialogs required to accomplish the user's goals.",
+      "rules": [
+        { "id": "AMI-01", "text": "In data-entry forms, does the system position the cursor at the start of the first input field?" },
+        { "id": "AMI-02", "text": "When performing the main actions of a dialog box, are cursor movements minimized through proper ordering of the objects?" },
+        { "id": "AMI-03", "text": "Does the user have a simple and quick way (e.g. the TAB key) to navigate between the fields of a form?" },
+        { "id": "AMI-04", "text": "Do command-button groups always have one button defined as the default?" },
+        { "id": "AMI-05", "text": "Is the menu structure designed to reduce the steps needed for selection?" }
+      ]
+    },
+    {
+      "id": "DEN",
+      "name": "Information Density",
+      "summary": "Assess the information density of the screens presented by the system.",
+      "rules": [
+        { "id": "DEN-01", "text": "Is the information density of the windows reduced?" },
+        { "id": "DEN-02", "text": "Do the screens present only the data and information that are necessary and indispensable to the user for their task?" },
+        { "id": "DEN-03", "text": "When entering coded data, are only the necessary data present on the screen in a distinguishable way?" },
+        { "id": "DEN-04", "text": "Does the system minimize the need for the user to remember exact data from one screen to another?" },
+        { "id": "DEN-05", "text": "When reading a window, are the user's eye movements minimized by distributing the main objects along the lines of a 'Z'?" },
+        { "id": "DEN-06", "text": "Does the system avoid presenting a large number of windows that may distract or overload the user's memory?" },
+        { "id": "DEN-07", "text": "When manipulating the presented data, is the user freed from translating units?" },
+        { "id": "DEN-08", "text": "Do selection and combo lists present a height corresponding to at most nine lines?" },
+        { "id": "DEN-09", "text": "Do menu panels show as active only the necessary options?" }
+      ]
+    },
+    {
+      "id": "AEX",
+      "name": "Explicit User Actions",
+      "summary": "Check that it is the user who explicitly commands the system's actions.",
+      "rules": [
+        { "id": "AEX-01", "text": "Does the system defer processing until the user's input actions have been completed?" },
+        { "id": "AEX-02", "text": "During the selection of a menu option, does the system allow separation between indicating and executing the option?" },
+        { "id": "AEX-03", "text": "To start processing the data, does the system always require an explicit 'ENTER' action from the user?" },
+        { "id": "AEX-04", "text": "Is it always the user who commands navigation between the fields of a form?" }
+      ]
+    },
+    {
+      "id": "CTL",
+      "name": "User Control",
+      "summary": "Assess the user's ability to control the sequencing and execution of actions.",
+      "rules": [
+        { "id": "CTL-01", "text": "Can the user end a repetitive sequential dialog at any moment?" },
+        { "id": "CTL-02", "text": "Can the user interrupt and resume a sequential dialog at any moment?" },
+        { "id": "CTL-03", "text": "Can the user restart a sequential dialog at any moment?" },
+        { "id": "CTL-04", "text": "During periods when input devices are blocked, does the system provide an option to interrupt the process that caused the block?" }
+      ]
+    },
+    {
+      "id": "FLE",
+      "name": "Flexibility",
+      "summary": "Assess the system's options for personalization by the user.",
+      "rules": [
+        { "id": "FLE-01", "text": "Does the system let the user personalize actions to account for their needs, habits or preferences?" }
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "User Experience",
+      "summary": "Assess the opportunities for success of users with different levels of experience.",
+      "rules": [
+        { "id": "EXP-01", "text": "Does the system offer opportunities for success to both novice and experienced users (e.g. shortcuts, assistance)?" }
+      ]
+    },
+    {
+      "id": "PRO",
+      "name": "Error Protection",
+      "summary": "Assess the mechanisms used to prevent user errors.",
+      "rules": [
+        { "id": "PRO-01", "text": "Does the system have mechanisms that prevent user errors before they occur?" }
+      ]
+    },
+    {
+      "id": "MSG",
+      "name": "Error Messages",
+      "summary": "Assess the quality of the error messages presented to users.",
+      "rules": [
+        { "id": "MSG-01", "text": "Are error messages clear and precise, indicating the cause of the error and how to correct it?" }
+      ]
+    },
+    {
+      "id": "COR",
+      "name": "Error Correction",
+      "summary": "Assess the facilities offered to the user for correcting the errors they make.",
+      "rules": [
+        { "id": "COR-01", "text": "Does the system offer easy means for the user to correct the errors they make (e.g. undo, redo, editing)?" }
+      ]
+    },
+    {
+      "id": "CST",
+      "name": "Consistency",
+      "summary": "Assess the coherence of the interface's design elements.",
+      "rules": [
+        { "id": "CST-01", "text": "Are design choices (codes, denominations, formats, procedures) kept identical in identical contexts and different in different contexts?" }
+      ]
+    },
+    {
+      "id": "SIG",
+      "name": "Significance of Codes",
+      "summary": "Assess the clarity of the codes and denominations used by the interface.",
+      "rules": [
+        { "id": "SIG-01", "text": "Are codes, denominations, abbreviations and terms meaningful and familiar to the user, with a strong relationship to their referent?" }
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compatibility",
+      "summary": "Assess the alignment of the system with the user's expectations, characteristics and task.",
+      "rules": [
+        { "id": "CMP-01", "text": "Is the system compatible with the user's characteristics (memory, perception, habits) and with their task and environment?" }
+      ]
+    }
+  ]
+}
