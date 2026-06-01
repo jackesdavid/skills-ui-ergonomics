@@ -15,6 +15,15 @@ _Point it at a view. Get back every rule it fails, a prioritized to-do list, and
 
 ---
 
+> 📚 **Where the 128 rules come from:** they were collected and adapted from the **ErgoList usability
+> checklist** developed at the **Federal University of Santa Catarina (UFSC), Brazil** — itself based
+> on the classic **ergonomic criteria of Bastien & Scapin** — as published at
+> [usabilidade.github.io](https://usabilidade.github.io). Translated to English and made
+> source-neutral here so they're reusable anywhere. They're a strong baseline, not gospel: every rule
+> is editable in [`reference/rules.json`](reference/rules.json).
+
+---
+
 ## ✨ What it does
 
 `ui-ergonomics` reviews a screen or component against **18 usability & ergonomic dimensions**
